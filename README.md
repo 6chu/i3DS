@@ -40,7 +40,7 @@
 	<span style="font-size:10px;">3. Change Home Post CSS style:</span>
 </p>
 <p>
-	Change
+	From
 </p>
 <p>
 <pre class="prettyprint lang-css">.clean-gallery-postbox{height:293px;width:250px;margin:6px 25px 19px 3px;padding:0;border:0px solid #dddddd;overflow:hidden;position:relative;float:left;background-color:#ffffff;border-radius:10px;box-shadow:7px 6px 1px #002851;}
