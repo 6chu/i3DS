@@ -16,14 +16,7 @@
 	<span style="font-size:10px;">Related File：</span><span style="font-size:10px;">social-buttons.php</span> 
 </p>
 <p>
-	<span style="font-size:10px;"><br />
-</span>
-</p>
-<p>
 	<span style="font-size:10px;">2. Cumstomized page navigator's CSS style:</span>
-</p>
-<p>
-	<br />
 </p>
 <p>
 <pre class="prettyprint lang-css">/* LCP-PageNavi
@@ -38,11 +31,8 @@
 /* lcp_catlist
 -------------------------------------------------------------- */
 .lcp_catlist a,.lcp_paginatorspan{text-decoration:none;font-size:12px;font-family:arial;}
-
 .lcp_catlist a:hover,.lcp_catlist a a:focus,.lcp_catlist a span.current{color:#000000;}
-
 .lcp_catlist ul,li{list-style-type:none;}
-
 .lcp_catlist li{text-align:left;line-height:9px;}</pre>
 </p>
 <h2>
