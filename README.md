@@ -1,23 +1,49 @@
 <h2>
-	<span style="font-family:Microsoft YaHei;">2019/09/09 网站维护记录</span>
+	<span style="font-family:Microsoft YaHei;">2019/09/09 网站维护记录</span> 
 </h2>
 <p>
-	替换了右上角的注册/登陆图标，之前无论登陆与否都一直显示登出标识，现在直接显示会员图标。具体：
+	1. Change the membership icon from fa logout to fa user, which makes more sense. Detail:
 </p>
 <p>
-	将
+	Change
 </p>
 <pre class="prettyprint lang-php">    &lt;?php if ( !(clean_gallery_get_option('hide_login_button')) ) { ?&gt;&lt;?php if (is_user_logged_in()) : ?&gt;&lt;a href="&lt;?php echo esc_url( wp_logout_url( get_permalink() ) ); ?&gt;" class="clean-gallery-social-icon-login" title="&lt;?php esc_attr_e( 'Logout', 'clean-gallery' ); ?&gt;" aria-label="&lt;?php esc_attr_e( 'Logout Button', 'clean-gallery' ); ?&gt;"&gt;&lt;i class="fa fa-sign-out" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;?php else : ?&gt;&lt;a href="&lt;?php echo esc_url( wp_login_url( get_permalink() ) ); ?&gt;" class="clean-gallery-social-icon-login" title="&lt;?php esc_attr_e( 'Login / Register', 'clean-gallery' ); ?&gt;" aria-label="&lt;?php esc_attr_e( 'Login / Register Button', 'clean-gallery' ); ?&gt;"&gt;&lt;i class="fa fa-sign-in" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;?php endif;?&gt;&lt;?php } ?&gt;</pre>
 <p>
-	替换成
+	into
 </p>
 <pre class="prettyprint lang-php">    &lt;?php if ( !(clean_gallery_get_option('hide_login_button')) ) { ?&gt;&lt;?php if (is_user_logged_in()) : ?&gt;&lt;a href="&lt;?php echo esc_url( wp_logout_url( get_permalink() ) ); ?&gt;" class="clean-gallery-social-icon-login" title="&lt;?php esc_attr_e( 'Logout', 'clean-gallery' ); ?&gt;" aria-label="&lt;?php esc_attr_e( 'Logout Button', 'clean-gallery' ); ?&gt;"&gt;&lt;i class="fa fa-user" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;?php else : ?&gt;&lt;a href="&lt;?php echo esc_url( wp_login_url( get_permalink() ) ); ?&gt;" class="clean-gallery-social-icon-login" title="&lt;?php esc_attr_e( 'Login / Register', 'clean-gallery' ); ?&gt;" aria-label="&lt;?php esc_attr_e( 'Login / Register Button', 'clean-gallery' ); ?&gt;"&gt;&lt;i class="fa fa-user" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;?php endif;?&gt;&lt;?php } ?&gt;</pre>
-</pre>
 <p>
-	<span style="font-size:10px;">相关文件：</span><span style="font-size:10px;">social-buttons.php</span>
+	<span style="font-size:10px;">Related File：</span><span style="font-size:10px;">social-buttons.php</span> 
+</p>
+<p>
+	<span style="font-size:10px;"><br />
+</span>
+</p>
+<p>
+	<span style="font-size:10px;">2. Cumstomized page navigator's CSS style:</span>
 </p>
 <p>
 	<br />
+</p>
+<p>
+<pre class="prettyprint lang-css">/* LCP-PageNavi
+-------------------------------------------------------------- */
+.lcp_paginator{clear:both;float:center;}
+.lcp_paginator a,.lcp_paginatorspan{text-decoration:none;background:#eeeeee !important;border:1px solid #dddddd !important;padding:6px;margin:2px;display:inline-block;color:#444444 !important;line-height:1;border-radius:2px;}
+.lcp_paginator a:hover,.lcp_paginator a:focus,.lcp_paginator span.current{background:#dddddd !important;border:1px solid #cccccc !important;color:#000000 !important;}
+.lcp_paginator span.current{font-weight:normal;background:#dddddd !important;border:1px solid #cccccc !important;color:#000000 !important;}
+.lcp_paginator ul,li{list-style-type:none;}
+.lcp_paginator li{float:left;text-align:center;line-height:49px}
+
+/* lcp_catlist
+-------------------------------------------------------------- */
+.lcp_catlist a,.lcp_paginatorspan{text-decoration:none;font-size:12px;font-family:arial;}
+
+.lcp_catlist a:hover,.lcp_catlist a a:focus,.lcp_catlist a span.current{color:#000000;}
+
+.lcp_catlist ul,li{list-style-type:none;}
+
+.lcp_catlist li{text-align:left;line-height:9px;}</pre>
 </p>
 <h2>
 	<span style="font-family:Microsoft YaHei;">2019/09/04 网站维护记录</span>
