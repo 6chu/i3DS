@@ -53,8 +53,10 @@
 into
 </p>
 <p>
-<pre class="prettyprint lang-css">.clean-gallery-postbox{height:246px;width:249px;margin:6px 25px 19px 3px;padding:0;border:0px solid #dddddd;overflow:hidden;position:relative;float:left;background-color:#ffffff;border-radius:10px;box-shadow:7px 6px 1px #002851;}
-.clean-gallery-postbox .clean-gallery-postbox-title{width:249px;height:44px;color:#222222;font:normal bold 14px Domine,Arial,Helvetica,sans-serif;line-height:1.4;-webkit-transition-duration:2.5s ease-out;-moz-transition-duration:2.5s ease-out;-o-transition-duration:2.5s ease-out;transition-duration:2.5s ease-out;position:absolutes;bottom:0;margin:0;padding:5px 5px 0 5px;text-align:center;overflow:hidden;background-color:#fbfbfb}
+<pre class="prettyprint lang-css">.clean-gallery-postbox{width:250px;height:243px;margin:6px 25px 19px 3px;padding:0;border:0px solid #dddddd;overflow:hidden;position:relative;float:left;background-color:#ffffff;border-radius:10px;box-shadow:7px 6px 1px #002851;}
+.clean-gallery-postbox:nth-of-type(3n+3){margin-right:0;}
+.clean-gallery-postbox:nth-of-type(3n+1){clear:both;}
+.clean-gallery-postbox .clean-gallery-postbox-title{width:248px;height:43px;color:#222222;font:normal bold 14px Domine,Arial,Helvetica,sans-serif;line-height:1.4;-webkit-transition-duration:2.5s ease-out;-moz-transition-duration:2.5s ease-out;-o-transition-duration:2.5s ease-out;transition-duration:2.5s ease-out;position:absolute;bottom:0;margin:0;padding:4px 5px 0;text-align:center;overflow:hidden;background-color:#FFF;}
 .clean-gallery-postbox .clean-gallery-postbox-title a{color:#222222;text-align:center;-webkit-transition:color .3s;-moz-transition:color .3s;-o-transition:color .3s;transition:color .3s;}
 .clean-gallery-postbox .clean-gallery-postbox-title a:hover,.clean-gallery-postbox .clean-gallery-postbox-title a:focus{color:#888888;text-decoration:none;}
 .clean-gallery-postbox .clean-gallery-single-post-date{margin-right:0;}</pre>
