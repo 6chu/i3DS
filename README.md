@@ -1,5 +1,5 @@
 <h2>
-	2019/09/09 User Icon, Page Navigator, Home Page Layout
+	2019/09/09 User Icon, Page Navigator, Home Page Layout, Homepage Post Mask
 </h2>
 <p>
 	1. Change the membership icon from fa logout to fa user, which makes more sense. Detail:
@@ -56,8 +56,11 @@ into
 <pre class="prettyprint lang-css">.clean-gallery-postbox{width:250px;height:243px;margin:6px 25px 19px 3px;padding:0;border:0px solid #dddddd;overflow:hidden;position:relative;float:left;background-color:#ffffff;border-radius:10px;box-shadow:7px 6px 1px #002851;}
 .clean-gallery-postbox:nth-of-type(3n+3){margin-right:0;}
 .clean-gallery-postbox:nth-of-type(3n+1){clear:both;}
-.clean-gallery-postbox .clean-gallery-postbox-title{width:248px;height:43px;color:#222222;font:normal bold 14px Domine,Arial,Helvetica,sans-serif;line-height:1.4;-webkit-transition-duration:2.5s ease-out;-moz-transition-duration:2.5s ease-out;-o-transition-duration:2.5s ease-out;transition-duration:2.5s ease-out;position:absolute;bottom:0;margin:0;padding:4px 5px 0;text-align:center;overflow:hidden;background-color:#FFF;}
+.clean-gallery-postbox .clean-gallery-postbox-title{width:250px;height:43px;color:#222222;font:normal bold 14px Domine,Arial,Helvetica,sans-serif;line-height:1.4;-webkit-transition-duration:2.5s ease-out;-moz-transition-duration:2.5s ease-out;-o-transition-duration:2.5s ease-out;transition-duration:2.5s ease-out;position:absolute;bottom:0;margin:0;padding:4px 5px 0;text-align:center;overflow:hidden;background-color:#FFF;}
 .clean-gallery-postbox .clean-gallery-postbox-title a{color:#222222;text-align:center;-webkit-transition:color .3s;-moz-transition:color .3s;-o-transition:color .3s;transition:color .3s;}
 .clean-gallery-postbox .clean-gallery-postbox-title a:hover,.clean-gallery-postbox .clean-gallery-postbox-title a:focus{color:#888888;text-decoration:none;}
 .clean-gallery-postbox .clean-gallery-single-post-date{margin-right:0;}</pre>
+<p>
+	<span style="font-size:10px;">4. Fixed HomePage Post Mask CSS line 1 into:</span>
 </p>
+<pre class="prettyprint lang-css">.clean-gallery-postbox .clean-gallery-postbox-mask{width:250px;height:248px;position:absolute;overflow:hidden;top:0;left:0;text-align:center;}</pre>
