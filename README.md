@@ -1,18 +1,9 @@
-<h2>
-	<span style="font-family:Microsoft YaHei;">2019/09/10 网站维护公告</span>
-</h2>
-<p>
-	<span style="color:#5A5A5A;font-family:&quot;font-size:14px;background-color:#FFFFFF;">新增了快捷回复功能。点一下按钮即可快捷回复。用手打字？本宅是不需要的。（但回复可见还是要的，为了保护资源安全不死链，希望大家理解）。</span>
-</p>
-</br>
-<h2>
-	<span style="font-family:Microsoft YaHei;">2019/09/04 网站维护公告</span>
-</h2>
-<p>
-	<span style="color:#5A5A5A;font-family:&quot;font-size:14px;background-color:#FFFFFF;">1、已修复注册时收不到验证邮件，导致无法注册的问题。重新开放了自由注册。</span><br />
-<span style="color:#5A5A5A;font-family:&quot;font-size:14px;background-color:#FFFFFF;">2、评论框的'未登录提示'错位的问题。</span><br />
-<span style="color:#5A5A5A;font-family:&quot;font-size:14px;background-color:#FFFFFF;">3、新增了 找游戏 功能。</span><br />
-<span style="color:#5A5A5A;font-family:&quot;font-size:14px;background-color:#FFFFFF;">4、新增了 FAQ 和 关于本站 页面。</span><br />
-<span style="color:#5A5A5A;font-family:&quot;font-size:14px;background-color:#FFFFFF;">5、对文章的阅读体验进行了一系列不可描述的优化。</span><span style="font-family:Microsoft YaHei;"></span>
-</p>
-
+<strong><span style="font-size:16px;">* 新增快捷回复功能 *</span></strong><br />
+用手打字？本宅是不需要的！<br />
+使用方法：点一下文章“评论框”上方的按钮即可快捷回复。<br />
+（但回复可见还是要的，为了保护资源安全不死链，希望大家理解）。<br />
+<br />
+<span style="font-size:16px;"><strong>* 部分游戏截图挂了的说明 *</strong></span><br />
+2019/09/10 之前的游戏画面截图不出意外是挂了（图片HOST原因），因为有视频可以做游戏画面参考，所以挂了的游戏截图暂不更新（<s>因为穷</s>）。<br />
+<br />
+往期网站更新维护公告：<a href="https://github.com/6chu/i3DS" target="_blank">https://github.com/6chu/i3DS</a><br />
