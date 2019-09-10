@@ -14,7 +14,7 @@
 	2019/09/10 之前的游戏画面截图不出意外是挂了（图片HOST原因），因为有视频可以做游戏画面参考，所以挂了的游戏截图暂不更新（<s>因为穷</s>）。
 </p>
 <hr />
-<strong><span style="font-size:24px;">2019/09/04 网站更新维护公告</span></strong><span style="font-size:24px;"></span> 
+<p><strong><span style="font-size:24px;">2019/09/04 网站更新维护公告</span></strong><span style="font-size:24px;"></span> </p>
 <p>
 	<strong><span style="font-size:16px;">1、注册问题修复</span></strong> 
 </p>
