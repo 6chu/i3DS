@@ -1,4 +1,17 @@
 <p>
+	<strong><span style="font-size:24px;">2019/09/12 网站更新维护公告</span></strong> 
+</p>
+<p>
+	<strong><span style="font-size:16px;">暂时取消MediaFire 下载链接</span></strong> 
+</p>
+<p>
+因为懒。
+</p>
+<p>
+如果从度盘下载有问题，需要MediaFire 下载某个游戏的话，请在&nbsp;<a class="ke-insertfile" href="https://i3ds.fun/game-request/" target="_blank">https://i3ds.fun/game-request/</a> 提交。
+</p>
+<hr />
+<p>
 	<strong><span style="font-size:24px;">2019/09/10 网站更新维护公告</span></strong> 
 </p>
 <p>
