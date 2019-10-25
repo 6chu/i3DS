@@ -242,7 +242,7 @@ textarea{overflow:auto;padding-left:3px;vertical-align:top;width:100%;}
 .clean-gallery-social-icons .clean-gallery-social-icon-login{float:right;}
 .clean-gallery-social-icons .clean-gallery-social-icon-search{float:right;}
 
-/* Posts µ¥Ò³ÎÄÕÂ
+/* Posts å•é¡µæ–‡ç« 
 -------------------------------------------------------------- */
 .sticky{}
 .post{margin:5px 0px 5px 0px;padding-bottom:5px;border-radius:10px;}
@@ -290,7 +290,7 @@ h1.clean-gallery-page-title{padding:10px 0;font-size:32px;text-align:center;marg
 .page-links > span{background:#000 !important;color:#fff !important;}
 .page-links a:hover,.page-links a:focus{background:#333 !important;color:#fff !important;}
 
-/* Sidebar Ö÷±ßÀ¸
+/* Sidebar ä¸»è¾¹æ 
 -------------------------------------------------------------- */
 .clean-gallery-sidebar-widgets{line-height:1.5;}
 .clean-gallery-side-widget{margin:0 0 25px 0;padding:15px;line-height:1.5;border-radius:10px;color:#5a5a5a;font:normal normal 14px Oswald,Arial,Helvetica,sans-serif;}
@@ -478,7 +478,7 @@ body.admin-bar .clean-gallery-primary-menu-container.clean-gallery-fixed{top:32p
 .clean-gallery-primary-nav-menu.clean-gallery-primary-responsive-menu .sub-menu li a,.clean-gallery-primary-nav-menu.clean-gallery-primary-responsive-menu .sub-menu li a:hover,.clean-gallery-primary-nav-menu.clean-gallery-primary-responsive-menu .sub-menu li a:focus,.clean-gallery-primary-nav-menu.clean-gallery-primary-responsive-menu .children li a,.clean-gallery-primary-nav-menu.clean-gallery-primary-responsive-menu .children li a:hover,.clean-gallery-primary-nav-menu.clean-gallery-primary-responsive-menu .children li a:focus{padding:12px 20px;position:relative;width:100%}
 }
 
-/* Home Posts Ê×Ò³ÎÄÕÂËõÂÔºĞ
+/* Home Posts é¦–é¡µæ–‡ç« ç¼©ç•¥ç›’
 -------------------------------------------------------------- */
 .clean-gallery-postbox{width:250px;height:243px;margin:6px 25px 19px 3px;padding:0;border:0px solid #dddddd;overflow:hidden;position:relative;float:left;background-color:#ffffff;border-radius:10px;box-shadow:7px 6px 1px #002851;}
 .clean-gallery-postbox:nth-of-type(3n+3){margin-right:0;}
@@ -820,7 +820,7 @@ h2.comments-title{font-size:20px;padding-bottom:10px;}
 	top:1px;
 }
 
-/* ÆÀÂÛ¿ò¼Óµ×Í¼
+/* è¯„è®ºæ¡†åŠ åº•å›¾
 -------------------------------------------------------------- */
 #comment
 
@@ -830,7 +830,7 @@ background-repeat:no-repeat;
 
 background-position:right center;}
 
-/* ²ÊÉ«ĞÅÏ¢¿ò
+/* å½©è‰²ä¿¡æ¯æ¡†
 -------------------------------------------------------------- */
 #sc_notice {color: #7da33c;background: #ecf2d6 url('img/sc_notice.png') -1px -1px no-repeat;border: 1px solid #aac66d;overflow: hidden;margin: 10px 0;padding: 15px 15px 15px 35px;}
 #sc_warn {color: #ad9948;background: #fff4b9 url('img/sc_warn.png') -1px -1px no-repeat;border: 1px solid #eac946;overflow: hidden;margin: 10px 0;padding: 15px 15px 15px 35px;}
